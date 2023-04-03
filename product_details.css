@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.scontainer{
+    margin: 0px 30px 0px 30px;
+}
+
+#search input{
+    padding-left: 3rem;
+}
+
+#search button{
+    position: relative;
+    right: 15rem;
+}
+
+nav .dropdown button{
+    border: none;
+    text-decoration: none;
+    background:white;
+}
+
+.dropdown{
+    margin-top: 0.5rem;
+    font-size: 18px;
+}
+
+.banner{
+    width: 100%;
+    background-image: url('headphones4.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 13rem;
+}
+
+.filters{
+    display: flex;
+    gap: 20px;
+}
+
+
+.item img{
+    margin-bottom: 10px;
+    width: 220px;
+    height: 200px;
+}
+
+.content {
+    font-weight: 600;
+    width: 220px;
+}
+
+.item{
+    line-height: 10px;
+}
+
+.items{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.banner h1{
+    color: rgb(36, 82, 54);
+}
+
+.filters{
+    display: flex;
+}
+
+#sortby{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.item img{
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.filters button{
+    color: black;
+    border: none;
+    background-color: rgb(214, 211, 211);
+}
+
+.item button:hover{
+    background-color: rgb(36, 82, 54);
+}
+
+nav ul li a{
+    font-weight: 700 !important;
+}
+
+.item:hover{
+    transform: scale(1.02);
+}

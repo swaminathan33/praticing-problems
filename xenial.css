@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-image: url('/bg3.jpg');
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+#mid {
+    margin-left: 11rem !important;
+}
+
+li{
+    margin-left: 2rem;
+}
+
+li a{
+    color: rgb(107, 106, 106) !important;
+}
+
+#title{
+    font-size: bold !important;
+    color: black;
+    font-family: 'Paytone One', sans-serif;
+}
+
+.middle{
+    margin-top: 6rem;
+}
+
+.middle h1{
+    font-size: 60px;
+}
+
+p{
+    font-weight: bold;
+}
+
+.title{
+    font-family: 'Paytone One', sans-serif;
+}

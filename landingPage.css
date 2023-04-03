@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Grenze+Gotisch:wght@200&family=Poppins&display=swap');
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.8)), url('/bg2.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.title{
+    font-size: 35px;
+}
+
+.center{
+    margin: auto;
+    width: 50%;
+    margin-top: 10%;
+    text-align: justify;
+}
+
+h1{
+    color: white;
+    font-size: 3.2rem;
+    
+}
+
+p{
+    color: white;
+    margin-left: 1.5rem;
+}
+
+button{
+    text-decoration: none;
+    border: none;
+    background-color: rgb(127,45,51);
+    color: rgb(15, 15, 15);
+    width: 200px;
+    height: 40px;
+    margin-top: 3rem;
+    margin-left: 11rem;   
+    border-radius: 20px; 
+    font-weight: bold;
+}
+
+span{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    color: white;
+    font-size: 3.2rem;
+}
+
+.nav{
+    font-family: 'Abel', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}

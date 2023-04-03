@@ -1,0 +1,113 @@
+
+.navbar{
+    background-color: #fff;
+}
+
+.navbar-nav{
+    gap: 20px;
+    width: 87%;
+}
+
+.navbar-brand{
+    font-weight: 600;
+}
+
+.navbar-nav .cart{
+    position: relative;
+    left: 40rem;
+    font-size: 20px;
+}
+
+.top-section{
+    background-image: url('design_bg3.jfif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    height: 250px;
+}
+
+.content{
+    text-align: center;
+    position: relative;
+    top: 50px;
+    height: 100%;
+}   
+
+
+#latest{
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0 20px 0;
+}
+
+.box img{
+    width: 200px;
+    border-radius: 20px;
+}
+.box:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+}
+.box {
+    width: 200px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+}
+
+.products{
+    display: flex;
+    margin:0px 0px 3rem 15rem;
+    justify-content: center;
+    flex-wrap:wrap;
+    width: 60%;
+    gap: 3rem;
+}
+.contents{
+    text-align: center;
+}
+
+.foot-options{
+    font-weight: 600;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foot-icons{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+footer{
+    background-color: goldenrod;
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+
+.foot-icons .btn{
+    border-radius: 50%;
+    background-color: #54456b;
+    border: 1px solid black;
+}
+
+.foot-icons .btn:hover{
+    color: white;   
+}
+
+.copyrights{
+    text-align: center;
+    background-color: rgb(148, 110, 14);
+}
+
+.gap{
+    margin: 20px 0px 20px 0px ;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.gap button{
+    border-radius: 10px;
+}

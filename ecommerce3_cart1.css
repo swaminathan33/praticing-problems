@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#fff;
+}
+
+.wrapper{
+    display: flex;
+}
+
+.shop{
+    flex:75%;
+}
+.project{
+    margin-top: 2rem;
+}
+.box{
+    border-radius: 15px;
+    background-color: #fff;
+    display: flex;
+    width: 55%;
+    height: 40%;
+    margin: 0 auto;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+}
+
+.box .content{
+    width: 100%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.box:hover{
+    transform: scale(1.01);
+}
+
+.box img{
+    width: 200px;
+    border-radius: 15px;
+}
+
+.btn-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-area button{
+    margin-bottom: 20px;
+}
+
+.btn-area input{
+    width: 30px;
+}
+
+
+#title{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: rgb(63, 155, 241);
+    
+}
+.content p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.box{
+    margin-bottom: 2rem;
+}
+
+.right-area{
+    flex: 25%;
+    position: relative;
+    right: 11rem;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    max-height: 20rem;
+    padding: 20px;
+}
+
+.right-area h1{
+    font-size: 20px;
+}
+
+.right-area div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-area button{
+    width: 100%;
+    margin-top: 20px;
+}
